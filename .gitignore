@@ -1,5 +1,9 @@
-# Virtual environments
-venv/
+# Virtual environments (ignorar componentes del venv pero no los scripts)
+venv/venv/Include/
+venv/venv/Lib/
+venv/venv/Scripts/
+venv/venv/share/
+venv/venv/pyvenv.cfg
 .env/
 .env.*
 
